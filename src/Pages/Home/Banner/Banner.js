@@ -1,9 +1,10 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
+import './Banner.css';
 
 const Banner = () => {
     return (
-        <Carousel className="pb-5" variant="dark" fade>
+        <Carousel className="pb-5" fade>
 
             <Carousel.Item>
                 <img
@@ -14,6 +15,7 @@ const Banner = () => {
                 <Carousel.Caption>
                     <h3>Equipment that Human need.</h3>
                     <p>We provide human life supports in emergency.</p>
+                    <Button variant="info" size="lg" >Shop Now</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -24,8 +26,9 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Best in Quality</h3>
-                    <p>We never compromise with the quality.</p>
+                    <h3>Best in Services</h3>
+                    <p>We never compromise with the quality of Services.</p>
+                    <Button variant="info" size="lg" >Check Services</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,9 +38,10 @@ const Banner = () => {
                     alt="Third slide"
                 />
 
-                <Carousel.Caption className="text-white">
+                <Carousel.Caption>
                     <h3>Technology that make Sense!</h3>
                     <p>We use the latest and optimistic technology that helps to be accurate and concise.</p>
+                    <Button variant="info" size="lg" >Check What We Offer</Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

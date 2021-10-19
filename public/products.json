@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "name": "Body Fat Analyser",
+        "description": "Bio-electrical impedance analysis technique",
+        "category": "diagnostic instruments",
+        "price": 300,
+        "img": "https://i.ibb.co/gvkhHWk/body-fat-analyzer.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Handheld refractometer",
+        "description": "For accurate measurement of specific gravity and protein determination",
+        "category": "diagnostic instruments",
+        "price": 450,
+        "img": "https://i.ibb.co/StjRSrh/handheld-refractometer.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dynatest Dynamomete",
+        "description": "For determining the exact muscle strength in hands in rheumatic disorder and after sport injuries",
+        "category": "diagnostic instruments",
+        "price": 200,
+        "img": "https://i.ibb.co/GCBv5z3/dynatest.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Duplex Deluxe Neonatal Stethoscope",
+        "description": "For newborn babies and infants",
+        "category": "diagnostic instruments",
+        "price": 200,
+        "img": "https://i.ibb.co/fnQ6zcH/duplex-deluxe-neonatal-stethoscope.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Fetal Doppler Ultrasound Stethoscope ",
+        "description": " Provides accurate auscultation of heart,lung and blood pressure tones and ergonomically " ,
+        "category": "diagnostic instruments",
+        "price": 380,
+        "img": "https://i.ibb.co/H47rbCp/fetal-doppler-ultrasound-stethoscope.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Neurological Hammer",
+        "description": "Dual sided hammer head Includes brush and needle",
+        "price": 300,
+        "img": "https://i.ibb.co/HdSmYv1/neurological-hammer.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mini-shaker for immunology",
+        "description": "For regulated shaking of micro test plates",
+        "category": "Laboratory Instruments",
+        "price": 1000,
+        "img": "https://i.ibb.co/RTSRZKd/mini-shaker-for-imunology.jpg"
+    },
+    {
+        "id": 8,
+        "name": "3D mini shaker",
+        "description": "For regulated three dimensional rotation of the platform",
+        "category": "Laboratory Instruments",
+        "price": 950,
+        "img": "https://i.ibb.co/h2NBcfD/3d-mini-shaker.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Centrifuge/Vortex Multi spin",
+        "description": "For collecting micro volumes of reagents on the micro tube bottom, must have instrument in PCR ",
+        "category": "Laboratory Instruments",
+        "price": 1200,
+        "img": "https://i.ibb.co/VtdDfnY/centrifuge-multi-spin.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Laboratory Medical Centrifuge ",
+        "description": "For sedimentation of cells, bacteria, yeast, formed blood elements",
+        "category": "Laboratory Instruments",
+        "price": 2300,
+        "img": "https://i.ibb.co/YpwZTDF/laboratory-medical-centrifuge.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Universal water thermostat ",
+        "description": "For maintaining stable temperature ",
+        "category": "Laboratory Instruments",
+        "price": 1380,
+        "img": "https://i.ibb.co/DCDWb5B/universal-water-thermostat.jpg"
+    },
+    {
+        "id": 12,
+        "name": "UV-cleaner box",
+        "description": "For disinfecting the working volume and working area during exposure",
+        "category": "Laboratory Instruments",
+        "price": 3300,
+        "img": "https://i.ibb.co/HhFxkB6/uv-cleaner-box.jpg"
+    },
+    {
+        "id": 13,
+        "name": "X-Ray machine",
+        "description": "X-ray generator, X-ray tube, patient table,facility of positioning aid, control unit",
+        "category": "Imagine Instrument",
+        "price": 5200,
+        "img": "https://i.ibb.co/hXWHWbY/xray-machine.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Magnetic resonance imaging (MRI)",
+        "description": "A static magnetic field(0.2/0.3tesla), and RF transmitter and receiver and three orthogonal, controllable magnetic gradients.",
+        "category": "Imagine Instrument",
+        "price": 10300,
+        "img": "https://i.ibb.co/k01bfJr/mri.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Ultrasound",
+        "description": "Displays modes , scanning modes, probe interface, image memory; optional equipments trolley, video printer, biopsy attachment",
+        "category": "Imagine Instrument",
+        "price": 8380,
+        "img": "https://i.ibb.co/dmrd0pz/ultrasound.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Computed Tomograghy (CT) scanner",
+        "description": "0.5 sec to 1.5 pitch factor, high/low contrast resolution, data acquisition system, monitors, operating consoles,communication system",
+        "category": "Imagine Instrument",
+        "price": 4600,
+        "img": "https://i.ibb.co/BZGbsrL/ct-scanner.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Electro-surgical Generator",
+        "description": "Three mode of operation: cut mode, blended cut mode, pinpoint coagulation",
+        "category": "Imagine Instrument",
+        "price": 5400,
+        "img": "https://i.ibb.co/41dcFX6/electrosurgical-generator.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Operating Table",
+        "description": "Table top permitting maximum full body, with head set, arm rests, shoulder and body supports, lateral support.",
+        "category": "Imagine Instrument",
+        "price": 7300,
+        "img": "https://i.ibb.co/ynHJqFR/operating-table.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Operating Room Lights",
+        "description": "Center mount with one and two surgical lights, 9000 foot candles per head",
+        "category": "Imagine Instrument",
+        "price": 8380,
+        "img": "https://i.ibb.co/rZyrqvY/operating-room-light.jpg"
+    },
+    {
+        "id": 20,
+        "name": "ENT microscope",
+        "description": "Three step magnification, 48mm interchangeable objective lens. Halogen light source.",
+        "category": "Imagine Instrument",
+        "price": 4600,
+        "img": "https://i.ibb.co/4RqLy6c/ent-microscope.jpg"
+    }
+]
