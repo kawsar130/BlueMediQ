@@ -7,6 +7,10 @@ import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Shared/Footer/Footer';
 import Products from './Pages/Home/Products/Products';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import ProductDetail from './Pages/ProductDetail/ProductDetail';
+import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
+import AboutUs from './Pages/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -27,6 +31,15 @@ function App() {
             <Route path="/products">
               <Products></Products>
             </Route>
+            <Route path="/about">
+              <AboutUs></AboutUs>
+            </Route>
+            <PrivateRoute path="/service/:serviceId">
+              <ServiceDetail></ServiceDetail>
+            </PrivateRoute>
+            <PrivateRoute path="/product/:productId">
+              <ProductDetail></ProductDetail>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

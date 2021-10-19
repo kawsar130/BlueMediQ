@@ -1,21 +1,24 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-const Service = (props) => {
-    const {name, summary, img} = props.service;
+const Service = ({service}) => {
+    const { id, name, summary, img } = service;
     return (
-            <Card>
-                <Card.Img variant="top" src={img} />
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
-                        {summary}
-                    </Card.Text>
-                </Card.Body>
-                <Card.Footer>
+        <Card>
+            <Card.Img variant="top" src={img} />
+            <Card.Body>
+                <Card.Title>{name}</Card.Title>
+                <Card.Text>
+                    {summary}
+                </Card.Text>
+            </Card.Body>
+            <Card.Footer>
+                <Link to={`/service/${id}`}>
                     <Button variant="info">Learn More...</Button>
-                </Card.Footer>
-            </Card>
+                </Link>
+            </Card.Footer>
+        </Card>
     );
 };
 

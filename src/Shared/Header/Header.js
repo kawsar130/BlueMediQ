@@ -26,6 +26,7 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#home" className="text-white">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#services" className="text-white">Services</Nav.Link>
                         <Nav.Link as={HashLink} to="/products" className="text-white">Products</Nav.Link>
+                        <Nav.Link as={HashLink} to="/about" className="text-white">About Us</Nav.Link>
                         {user?.email ?
                             <div className="user-info">
                                 <img src={user.photoURL} alt="" className="user-img mx-2" />

@@ -2,7 +2,6 @@ import React from 'react';
 import { Button, Carousel, Nav } from 'react-bootstrap';
 import './Banner.css';
 
-import { Link } from 'react-router-dom';
 import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 const Banner = () => {
@@ -34,7 +33,9 @@ const Banner = () => {
                 <Carousel.Caption>
                     <h3>Best in Services</h3>
                     <p>We never compromise with the quality of Services.</p>
-                    <Button variant="info" size="lg" >Check Services</Button>
+                    <Button variant="info" size="lg" >
+                        <NavHashLink as={HashLink} to="/home#services" className="text-white">Check Services</NavHashLink>
+                    </Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -47,7 +48,9 @@ const Banner = () => {
                 <Carousel.Caption>
                     <h3>Technology that make Sense!</h3>
                     <p>We use the latest and optimistic technology that helps to be accurate and concise.</p>
-                    <Button variant="info" size="lg" >Check What We Offer</Button>
+                    <Button variant="info" size="lg" >
+                        <NavHashLink as={HashLink} to="/about" className="text-white">Know more About Us!</NavHashLink>
+                    </Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
