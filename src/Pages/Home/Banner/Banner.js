@@ -1,6 +1,9 @@
 import React from 'react';
-import { Button, Carousel } from 'react-bootstrap';
+import { Button, Carousel, Nav } from 'react-bootstrap';
 import './Banner.css';
+
+import { Link } from 'react-router-dom';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 const Banner = () => {
     return (
@@ -15,7 +18,10 @@ const Banner = () => {
                 <Carousel.Caption>
                     <h3>Equipment that Human need.</h3>
                     <p>We provide human life supports in emergency.</p>
-                    <Button variant="info" size="lg" >Shop Now</Button>
+                    <Button variant="info" size="lg" >
+                        <NavHashLink as={HashLink} to="/products" className="text-white">Shop Now</NavHashLink>
+                    </Button>
+
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

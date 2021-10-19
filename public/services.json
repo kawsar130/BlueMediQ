@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Medical Equipment Supply",
+        "summary": "We supply medical equipments all over the country",
+        "description": "",
+        "img": "https://i.ibb.co/KXgPJXJ/equipment-supply.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Equipment Whole-Seller",
+        "summary": "BlueMediQ is the whole seller of medical equipment at the lowest possible rate",
+        "description": "",
+        "img": "https://i.ibb.co/NLHcLRx/whole-seller.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Equipment Importer",
+        "summary": "We import equipments from many countries.",
+        "description": "",
+        "img": "https://i.ibb.co/0G7Pg1L/import.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Equipment repair",
+        "summary": "We repair medical equipment with our expert engineers.",
+        "description": "",
+        "img": "https://i.ibb.co/qpxhTYg/repair.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Custom Order",
+        "summary": "We take custom orders from the customer for small to intermediate modification.",
+        "description": "",
+        "img": "https://i.ibb.co/VJGjHFZ/custom-order.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Whole country delivery",
+        "summary": "We deliver all our products all over the country",
+        "description": "",
+        "img": "https://i.ibb.co/stB855b/delivery.jpg"
+    }
+]
