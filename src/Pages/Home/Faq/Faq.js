@@ -9,7 +9,7 @@ const Faq = () => {
             <h2>Frequently Asked Question</h2>
             <div className="container faq-container py-5">
                 <div>
-                    <img src={img} alt="" />
+                    <img className="img-fluid" src={img} alt="" />
                 </div>
                 <div>
                     <Accordion defaultActiveKey="0" className="container faq">

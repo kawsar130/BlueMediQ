@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 import useAuth from '../../hooks/useAuth';
 
 // font awesome importing
@@ -19,7 +19,7 @@ const Header = () => {
         <>
             <Navbar sticky="top" bg="primary" variant="dark" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="home">BlueMediQ</Navbar.Brand>
+                    <Navbar.Brand as={NavHashLink} to="/home">BlueMediQ</Navbar.Brand>
                     <Navbar.Toggle />
 
                     <Navbar.Collapse className="justify-content-end">

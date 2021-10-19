@@ -12,7 +12,7 @@ const Footer = () => {
     const twitter = <FontAwesomeIcon icon={faTwitter} />
     const linkedin = <FontAwesomeIcon icon={faLinkedin} />
     const instagram = <FontAwesomeIcon icon={faInstagram} />
-    
+
     return (
         <div className="container-fluid bg-primary text-white p-5">
             <Row>
@@ -28,7 +28,7 @@ const Footer = () => {
                     <p>Team</p>
                     <p>Career</p>
                 </Col>
-                <Col  xs={6}>
+                <Col xs={6}>
                     <h5>BlueMediq</h5>
                     <p>BlueMediq is one of the largest Medical Equipment Supplier company in Bangladesh. We are passionate to work with humans health that will make the live easier and trouble-free. We are dedicated to assure you the best services in medical equipment supplying, servicing, and repairing.</p>
                 </Col>

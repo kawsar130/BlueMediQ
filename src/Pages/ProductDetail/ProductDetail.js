@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
-const ProductDetail = (props) => {
+const ProductDetail = () => {
     const { productId } = useParams();
-    // Use useEffect
+
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        fetch('/products.json')
+            .then(res => res.json())
+            .then(data => setProducts(data));
+    }, [])
+
+    // const exactItem = products.find(td == productId);
+
     return (
         <div>
-            <h2>This is Product: {productId}</h2>
+            {
+
+            }
         </div>
     );
 };
