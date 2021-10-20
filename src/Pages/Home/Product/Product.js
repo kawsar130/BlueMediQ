@@ -16,7 +16,7 @@ const Product = ({ product }) => {
                     <small className="fs-5 fw-bold">Price: ${price}</small>
                 </Card.Footer>
                 <Link to={`/product/${id}`}>
-                    <Button variant="primary">Check Details</Button>
+                    <Button variant="info">Check Details</Button>
                 </Link>
             </Card.Body>
         </Card >

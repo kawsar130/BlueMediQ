@@ -28,12 +28,12 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/products">
+            <PrivateRoute path="/products">
               <Products></Products>
-            </Route>
-            <Route path="/about">
+            </PrivateRoute>
+            <PrivateRoute path="/about">
               <AboutUs></AboutUs>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/service/:serviceId">
               <ServiceDetail></ServiceDetail>
             </PrivateRoute>
