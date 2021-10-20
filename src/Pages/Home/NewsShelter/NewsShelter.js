@@ -1,9 +1,9 @@
 import React from 'react';
-import { Col, Form, Row, Button } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 
 const NewsShelter = () => {
     return (
-        <div className="container w-50 pb-5 ">
+        <div className="container w-50 p-5 my-5 border border-info border-2 rounded bg-light">
             <h2>Subscribe to our News-Shelter</h2>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -18,7 +18,7 @@ const NewsShelter = () => {
                 <Form.Group className="mb-3 text-start" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Send me latest blogs weekly" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="info" size="lg" type="submit">
                     Submit
                 </Button>
             </Form>

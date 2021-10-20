@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Carousel, Nav } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 import './Banner.css';
 
 import { HashLink, NavHashLink } from 'react-router-hash-link';

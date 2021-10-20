@@ -1,12 +1,16 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
+import './Login.css';
 
 const Login = () => {
-    const { signInUsingGoogle, user } = useAuth();
-    console.log(user);
+
+    const { signInUsingGoogle, user, handleRegistration, handleEmailChange, handlePasswordChange, error, toggleLogin, isLogin } = useAuth();
+
+
+
     return (
-        <div className="p-5">
+        <div className="p-5 mx-5">
             {
                 user.email ?
                     <div className="pt-5">
@@ -16,39 +20,45 @@ const Login = () => {
                     </div>
                     :
                     <div className="pt-5">
-                        <h2>You are not Logged-In</h2>
-                        <h4>Please Login</h4>
+                        <h2>You are not Logged-In!</h2>
+                        <h4>Please {isLogin ? 'Login' : 'Register'}</h4>
 
-                        <form>
-                            <div class="row mb-3">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="inputEmail3" />
+                        <form onSubmit={handleRegistration} className="w-75 m-auto mt-4 border border-2 border-info rounded p-4 bg-light">
+                            <div className="row mb-3">
+                                <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
+                                <div className="col-sm-10">
+                                    <input onBlur={handleEmailChange} type="email" className="form-control" id="inputEmail3" required />
                                 </div>
                             </div>
-                            <div class="row mb-3">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                                <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3" />
+                            <div className="row mb-3">
+                                <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
+                                <div className="col-sm-10">
+                                    <input onBlur={handlePasswordChange} type="password" className="form-control" id="inputPassword3" required />
                                 </div>
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-sm-10 offset-sm-2">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1" />
-                                        <label className="form-check-label" for="gridCheck1">
-                                            New User?
+                            <div className="row mb-3 text-danger ms-3">
+                                <div className="fw-bold">
+                                    {error}
+                                </div>
+                            </div>
+                            <div className="row mb-3">
+                                <div className="col-sm-10 offset-sm-2">
+                                    <div className="form-check user-checkbox-container">
+                                        <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
+                                        <label className="form-check-label new-user-checkbox ms-2" htmlFor="gridCheck1">
+                                            Already have an account?
                                         </label>
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
+                            <button type="submit" className="btn btn-info">{isLogin ? 'Login' : 'Register'}</button>
                         </form>
 
                         <br />
-                        <h3>You can also sign in with Google</h3>
-
-                        <Button onClick={signInUsingGoogle} variant="info" size="md">Google Sign-In</Button>
+                        <div className="mt-3 border border-2 border-info rounded p-4 bg-light w-75 mx-auto mb-5">
+                            <h3 className="mb-4">You can also sign in with Google</h3>
+                            <Button onClick={signInUsingGoogle} variant="info" size="md">Google Sign-In</Button>
+                        </div>
                     </div>
             }
         </div>

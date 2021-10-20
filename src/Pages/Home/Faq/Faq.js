@@ -14,9 +14,9 @@ const Faq = () => {
                 <div>
                     <Accordion defaultActiveKey="0" className="container faq">
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header>What is the current status of your nitrile gloves' production?</Accordion.Header>
+                            <Accordion.Header>Who we are?</Accordion.Header>
                             <Accordion.Body>
-                                BlueMediQ has a daily production capacity of 1,000,000 units per line. At the end of 2021, BlueMediQ will have 96 functional production lines, reaching a total daily production capacity of over 100,000,000 units.
+                                BlueMediq is one of the largest Medical Equipment Supplier company in Bangladesh. We are passionate to work with humans health that will make the live easier and trouble-free. We are dedicated to assure you the best services in medical equipment supplying, servicing, and repairing.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
@@ -41,12 +41,18 @@ const Faq = () => {
                             <Accordion.Header>Where can I find product catalog downloads for your products?</Accordion.Header>
                             <Accordion.Body>
                                 For BlueMediQ product catalog please see:
-                                <a className="fw-bold" style={{ "textDecoration": "none"}} href="https://www.medicalkingfa.com/products/i-8/"> BlueMediQ Catalog</a>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
+                                <a className="fw-bold" style={{ "textDecoration": "none" }} href="https://www.medicalkingfa.com/products/i-8/"> BlueMediQ Catalog</a>
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="5">
+                            <Accordion.Header>What is the current status of your nitrile gloves' production?</Accordion.Header>
+                            <Accordion.Body>
+                                BlueMediQ has a daily production capacity of 1,000,000 units per line. At the end of 2021, BlueMediQ will have 96 functional production lines, reaching a total daily production capacity of over 100,000,000 units.
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                </div>
             </div>
-        </div>
         </div >
     );
 };
