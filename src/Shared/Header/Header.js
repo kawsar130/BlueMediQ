@@ -19,22 +19,22 @@ const Header = () => {
         <>
             <Navbar sticky="top" bg="primary" variant="dark" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand as={NavHashLink} to="/home">BlueMediQ</Navbar.Brand>
+                    <Navbar.Brand as={NavHashLink} className="nav-text" to="/home">BlueMediQ</Navbar.Brand>
                     <Navbar.Toggle />
 
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={HashLink} to="/home#home" className="text-white">Home</Nav.Link>
-                        <Nav.Link as={HashLink} to="/home#services" className="text-white">Services</Nav.Link>
-                        <Nav.Link as={HashLink} to="/products" className="text-white">Products</Nav.Link>
-                        <Nav.Link as={HashLink} to="/about" className="text-white">About Us</Nav.Link>
-                        <Nav.Link as={HashLink} to="/home#faq" className="text-white">FAQ</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#home" className="text-white nav-text">Home</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#services" className="text-white nav-text">Services</Nav.Link>
+                        <Nav.Link as={HashLink} to="/products" className="text-white nav-text">Products</Nav.Link>
+                        <Nav.Link as={HashLink} to="/about" className="text-white nav-text">About Us</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#faq" className="text-white nav-text">FAQ</Nav.Link>
                         {user?.email ?
                             <div className="user-info">
                                 <img src={user.photoURL} alt="" className="user-img mx-2" />
                                 <Navbar.Text className="me-3">
                                     <h6>{user?.displayName}</h6>
                                 </Navbar.Text>
-                                <Button onClick={logOut} className="btn btn-info text-white">{logoutIcon}</Button>
+                                <Button onClick={logOut} className="btn btn-info text-white btn-logout">{logoutIcon}</Button>
                             </div>
                             :
                             <Nav.Link as={Link} to="/login" className="text-white">Login</Nav.Link>}

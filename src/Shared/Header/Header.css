@@ -8,3 +8,11 @@
     height: 35px;
     border-radius: 50%;
 }
+
+.nav-text:hover {
+    border-bottom: 3px solid white;
+}
+
+.btn-logout:hover {
+    background-color: orange;
+}
