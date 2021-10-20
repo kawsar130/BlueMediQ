@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Body Fat Analyser",
         "description": "Bio-electrical impedance analysis technique",
-        "category": "diagnostic instruments",
+        "category": "Diagnostic instruments",
         "price": 300,
         "img": "https://i.ibb.co/gvkhHWk/body-fat-analyzer.jpg"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Handheld refractometer",
         "description": "For accurate measurement of specific gravity and protein determination",
-        "category": "diagnostic instruments",
+        "category": "Diagnostic instruments",
         "price": 450,
         "img": "https://i.ibb.co/StjRSrh/handheld-refractometer.jpg"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Dynatest Dynamomete",
         "description": "For determining the exact muscle strength in hands in rheumatic disorder and after sport injuries",
-        "category": "diagnostic instruments",
+        "category": "Diagnostic instruments",
         "price": 200,
         "img": "https://i.ibb.co/GCBv5z3/dynatest.jpg"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Duplex Deluxe Neonatal Stethoscope",
         "description": "For newborn babies and infants",
-        "category": "diagnostic instruments",
+        "category": "Diagnostic instruments",
         "price": 200,
         "img": "https://i.ibb.co/fnQ6zcH/duplex-deluxe-neonatal-stethoscope.jpg"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Fetal Doppler Ultrasound Stethoscope ",
         "description": " Provides accurate auscultation of heart,lung and blood pressure tones and ergonomically " ,
-        "category": "diagnostic instruments",
+        "category": "Diagnostic instruments",
         "price": 380,
         "img": "https://i.ibb.co/H47rbCp/fetal-doppler-ultrasound-stethoscope.jpg"
     },
