@@ -16,19 +16,19 @@ const Footer = () => {
     return (
         <div className="container-fluid bg-primary text-white p-5">
             <Row>
-                <Col>
+                <Col xs={12}>
                     <h5>Services</h5>
                     <p>Medical Equipment Supply</p>
                     <p>Medical Equipment Repair</p>
                     <p>Equipment Importer</p>
                 </Col>
-                <Col>
+                <Col xs={12}>
                     <h5>About</h5>
                     <p>Company</p>
                     <p>Team</p>
                     <p>Career</p>
                 </Col>
-                <Col xs={6}>
+                <Col xs={12}>
                     <h5>BlueMediq</h5>
                     <p>BlueMediq is one of the largest Medical Equipment Supplier company in Bangladesh. We are passionate to work with humans health that will make the live easier and trouble-free. We are dedicated to assure you the best services in medical equipment supplying, servicing, and repairing.</p>
                 </Col>

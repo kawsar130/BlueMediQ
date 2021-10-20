@@ -2,11 +2,11 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Service = ({service}) => {
+const Service = ({ service }) => {
     const { id, name, summary, img } = service;
     return (
         <Card>
-            <Card.Img variant="top" src={img} />
+            <Card.Img variant="top" className="img-fluid" src={img} />
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>
